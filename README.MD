@@ -1,0 +1,47 @@
+# Linux Terminal Commands
+
+Common commands for working in a Linux terminal:
+
+- pwd: print working directory
+- ls: list directory contents
+- cd: change directory
+- mkdir: create a directory
+- rmdir: remove an empty directory
+- rm: remove files or directories
+- cp: copy files or directories
+- mv: move or rename files
+- touch: create an empty file or update timestamp
+- cat: concatenate and display file contents
+- less: view file contents one screen at a time
+- head: display the first lines of a file
+- tail: display the last lines of a file
+- grep: search text using patterns
+- find: search for files and directories
+- echo: display a line of text
+- chmod: change file permissions
+- chown: change file owner and group
+- sudo: run a command as another user, usually root
+- apt, yum, dnf, pacman: package management commands (depend on distribution)
+- ps: report process status
+- top: display running processes
+- kill: send a signal to a process
+- ssh: connect to a remote machine securely
+- scp: securely copy files between hosts
+- tar: archive files
+- gzip, gunzip: compress and decompress files
+- uname: print system information
+- df: report file system disk space usage
+- du: estimate file space usage
+- history: show command history
+- man: display manual pages
+- alias: create command shortcuts
+- env: show environment variables
+- export: set environment variables
+- date: display or set the system date and time
+- whoami: display current username
+- hostname: show or set the system hostname
+- uptime: show how long the system has been running
+- ping: check network connectivity
+- curl: transfer data from or to a server
+- wget: download files from the web
+- nano, vi, vim: text editors available in the terminal
