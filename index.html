@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Phantom Terminal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet" />
+
+</head>
+<body>
+
+<div id="term-root">
+  <div class="titlebar">
+    <div class="dots">
+      <div class="dot red"></div>
+      <div class="dot yellow"></div>
+      <div class="dot green"></div>
+    </div>
+    <span class="title-label">user@Job'sPul: ~</span>
+  </div>
+
+  <div class="tab-bar">
+    <div class="tab active">bash — ~</div>
+    <div class="tab">ssh remote</div>
+    <div class="tab">+ nuevo</div>
+  </div>
+
+  <div class="screen" id="output"></div>
+
+  <div class="input-area">
+    <div class="prompt-static">
+      <span class="ps1-user">user</span><span class="ps1-at">@</span><span class="ps1-host">Job'sPul</span><span class="ps1-at">:</span><span class="ps1-path" id="cwd-label">~</span><span class="ps1-dollar"> $</span>
+    </div>
+    <input id="cmd-input" spellcheck="false" autocomplete="off" autocorrect="off" placeholder="ingresa un comando..." autofocus />
+  </div>
+
+  <div class="status-bar">
+    <span>bash 5.2.15</span>
+    <span class="sep">|</span>
+    <span>PID <span id="pid-val">1337</span></span>
+    <span class="sep">|</span>
+    <span id="cwd-status">~/</span>
+    <span class="sep">|</span>
+    <span id="time-status">--:--:--</span>
+  </div>
+</div>
+
+
+</body>
+</html>
